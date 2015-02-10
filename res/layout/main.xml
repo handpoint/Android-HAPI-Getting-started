@@ -16,7 +16,7 @@
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/payWithPinAuthorized"
-        android:text="Pay With Pin Authorized"
+        android:text="Pay $110 With Pin Authorized"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     <LinearLayout

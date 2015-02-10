@@ -10,4 +10,7 @@ Handpoint getting started sample version 1.0
 
 - This sample project assumes that the simulator is being used which uses the development shared secret: 0102030405060708091011121314151617181920212223242526272829303132. 
 
+- This sample project does not support the Android emulators due to bluetooth dependencies. 
+
+
 For more information refer to https://www.handpoint.com/docs/device/Android/ or contact support@handpoint.com for assistance. 
