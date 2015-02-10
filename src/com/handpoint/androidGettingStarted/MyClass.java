@@ -23,8 +23,8 @@ public class MyClass implements Events.Required, Events.Status {
 
     //An Android Context is required to be able to handle bluetooth
     public void initApi(Context context) {
-        // If using a real device, uncomment the following lines and remove the currently active ones
-        String sharedSecret = "1CAEA428668FC71B3A9DA1D5CDF1151E67326F34B99E6651AD761D0D8835012F";
+        // If using a Handpoint integration card reader update the following string with the supplied shared secret
+        String sharedSecret = "0102030405060708091011121314151617181920212223242526272829303132";
         this.api = HapiFactory.getAsyncInterface(this, context).defaultSharedSecret(sharedSecret);
         // The shared secret is a unique string shared between the card reader and your mobile application.
         // It prevents other people to connect to your card reader.
