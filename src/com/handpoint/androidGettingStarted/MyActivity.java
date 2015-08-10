@@ -17,6 +17,7 @@ import android.widget.TextView;
 public class MyActivity extends Activity {
     private Button connectToSimulator;
     private Button connectToDevice;
+    private Button updateDevice;
     private Button payWithPinAuthorizedButton;
     MyClass myClass;
     /**
@@ -47,6 +48,12 @@ public class MyActivity extends Activity {
         payWithPinAuthorizedButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 myClass.payWithPinAuthorized();
+            }
+        });
+        updateDevice = (Button) findViewById(R.id.updateDevice);
+        updateDevice.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                myClass.updateDevice();
             }
         });
     }

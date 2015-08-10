@@ -40,6 +40,11 @@ public class MyClass implements Events.Required, Events.Status {
         this.api.listDevices(ConnectionMethod.BLUETOOTH);
     }
 
+    public void updateDevice(){
+        // Check for update
+        this.api.update();
+    }
+
     @Override
     public void deviceDiscoveryFinished(List<Device> devices) {
         // Manually update the status
